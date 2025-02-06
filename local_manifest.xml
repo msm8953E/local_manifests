@@ -29,6 +29,6 @@
 <!--- Vendor Blobs -->
 <project path="vendor/xiaomi/daisy" name="proprietary_vendor_xiaomi_daisy" remote="xiaomi-msm8953-devs" clone-depth="1" revision="lineage-21" />
 
-<project path="vendor/xiaomi/msm8953-common" name="xiaomi-msm8953-devs/proprietary_vendor_xiaomi_msm8953-common" remote="xiaomi-msm8953-devs" clone-depth="1" revision="lineage-21" />
+<project path="vendor/xiaomi/msm8953-common" name="proprietary_vendor_xiaomi_msm8953-common" remote="xiaomi-msm8953-devs" clone-depth="1" revision="lineage-21" />
 
 </manifest>

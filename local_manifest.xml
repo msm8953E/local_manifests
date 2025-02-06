@@ -21,7 +21,7 @@
 <!--- Vendor Blobs -->
 <project path="vendor/xiaomi/mi439" name="LOLZKERNEL/proprietary_vendor_xiaomi_mi439-4.19" remote="github" clone-depth="1" revision="udc" />
 
-<project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" clone-depth="1" revision="uvite" />
+<project path="vendor/xiaomi/msm8953-common" name="xiaomi-msm8953-devs/proprietary_vendor_xiaomi_msm8953-common" remote="github" clone-depth="1" revision="lineage-21" />
 
 <!-- Vendor Opensource -->
 <project path="vendor/qcom/opensource/core-utils" name="MI439-CLO/android_vendor_qcom-opensource_core-utils" remote="github" revision="uvite" />

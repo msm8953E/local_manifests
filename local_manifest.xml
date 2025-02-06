@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+  
+  <remote  name="msm8953E"
+           fetch="https://github.com/msm8953E"
+           revision="lineage-21" />
+  <remote  name="xiaomi-msm8953-devs"
+           fetch="https://github.com/xiaomi-msm8953-devs"
+           revision="lineage-21" />
+  <remote  name="LineageOS"
+           fetch="https://github.com/LineageOS"
+           revision="lineage-21" />
+  
+  <!--
+  <remote  name="github"
+           fetch="https://github.com" />
 <!-- Apps -->
 <project path="packages/apps/GrapheneCam" name="MI439-CLO/android_packages_apps_GrapheneCam" remote="github" revision="topaz" clone-depth="1" />
 
 <!-- Kernel -->
-<project path="kernel/xiaomi/msm8953" name="xiaomi-msm8953-devs/android_kernel_xiaomi_msm8953" remote="github" clone-depth="1" revision="lineage-21" />
+<project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" remote="github" clone-depth="1" revision="lineage-21" />
 
  <!-- Hardware -->
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github"  revision="lineage-21">
 
  <!-- Device -->
-<project path="device/xiaomi/daisy" name="msm8953E/android_device_xiaomi_daisy" remote="github" revision="infinity/14" />
+<project path="device/xiaomi/daisy" name="android_device_xiaomi_daisy" remote="github" revision="infinity/14" />
 
 <project path="device/xiaomi/msm8953-common" name="xiaomi-msm8953-devs/android_device_xiaomi_msm8953-common" remote="github" revision="lineage-21" />
 

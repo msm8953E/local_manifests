@@ -19,7 +19,7 @@
 <project path="device/xiaomi/msm8953-common" name="xiaomi-msm8953-devs/android_device_xiaomi_msm8953-common" remote="github" revision="lineage-21" />
 
 <!--- Vendor Blobs -->
-<project path="vendor/xiaomi/mi439" name="LOLZKERNEL/proprietary_vendor_xiaomi_mi439-4.19" remote="github" clone-depth="1" revision="udc" />
+<project path="vendor/xiaomi/daisy" name="xiaomi-msm8953-devs/proprietary_vendor_xiaomi_daisy" remote="github" clone-depth="1" revision="lineage-21" />
 
 <project path="vendor/xiaomi/msm8953-common" name="xiaomi-msm8953-devs/proprietary_vendor_xiaomi_msm8953-common" remote="github" clone-depth="1" revision="lineage-21" />
 
